@@ -1,0 +1,84 @@
+body {
+  background: #342A3F;
+  font-family: Verdana;
+}
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: black;
+  padding: 10px 0px;
+}
+header nav {
+  font-size: 15px;
+  height: 90px;
+  line-height: 135px;
+  text-transform: uppercase;
+}
+header nav li {
+  float: left;
+  position: relative;
+  list-style: none;
+  margin-right: 18px;
+}
+header nav li:last-child {
+  margin-right: 0px;
+}
+header nav a {
+  color: #FFF;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+header nav a:hover {
+  text-decoration: none;
+  color: #eebd08;
+}
+
+section#home {
+  margin-top: 150px;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+section#home article .containerCol {
+  min-height: 170px;
+  margin-bottom: 30px;
+  background: red;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;
+}
+section#home article .colTitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+section#home article .colText {
+  max-width: 88%;
+}
+section#home article .colTextLong {
+  width: 100%;
+}
+section#home article .colIcon {
+  position: absolute;
+  right: 40px;
+  top: 60px;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer address {
+  color: #FFF;
+  margin-bottom: 8px;
+}
+footer .reservedRights {
+  color: #9C8CA3;
+}

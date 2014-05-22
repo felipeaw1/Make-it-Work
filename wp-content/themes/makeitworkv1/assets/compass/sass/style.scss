@@ -1,0 +1,95 @@
+@mixin floatLeftRelative {
+	float: left;
+	position: relative;
+}
+@mixin floatRightRelative {
+	float: right;
+	position: relative;
+}
+@mixin animation {
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: 	all .5s ease-out;
+	-o-transition: 		all .5s ease-out;
+	transition: 		all .5s ease-out;
+}
+body {
+	background: #342A3F;
+	font-family: Verdana;
+}
+ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	background: black;
+	padding: 10px 0px;
+	.container {
+	}
+	nav {
+		font-size: 15px;
+		height: 90px;	
+		line-height: 135px;
+		text-transform: uppercase;
+		li {
+			@include floatLeftRelative;
+			list-style: none;
+			margin-right: 18px;
+		}
+		li:last-child {
+			margin-right: 0px;
+		}
+		a {
+			color: #FFF;
+			@include animation;
+		}
+		a:hover {
+			text-decoration: none;
+			color: #eebd08;
+		}
+	}
+}
+section#home {
+	margin-top: 150px;
+	color: #FFF;
+	margin-bottom: 30px;
+	article {
+		.containerCol {
+			min-height: 170px;
+			margin-bottom: 30px;
+			background: red;	
+			padding: 15px;
+			font-size: 16px;
+			line-height: 22px;
+		}
+		.colTitle {
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 15px;
+		}
+		.colText {
+			max-width: 88%;
+		}
+		.colTextLong {
+			width: 100%;
+		}
+		.colIcon {
+			position: absolute;
+			right: 40px;
+			top: 60px;
+		}
+	}
+}
+
+footer {
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 20px;
+	address {
+		color: #FFF;
+		margin-bottom: 8px;
+	}
+	.reservedRights {
+		color: #9C8CA3;
+	}
+}
