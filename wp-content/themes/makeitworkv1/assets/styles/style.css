@@ -1,6 +1,7 @@
 body {
   background: #342A3F;
   font-family: Verdana;
+  color: #FFF;
 }
 
 .container {
@@ -44,6 +45,9 @@ header nav li {
 header nav li:last-child {
   margin-right: 0px;
 }
+header nav .current-menu-item a {
+  color: #eebd08;
+}
 header nav a:hover {
   text-decoration: none;
   color: #eebd08;
@@ -51,8 +55,7 @@ header nav a:hover {
 
 section#home {
   margin-top: 150px;
-  color: #FFF;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 section#home article .containerCol {
   min-height: 170px;
@@ -112,6 +115,36 @@ section#home article a:hover .blog, section#home article a:hover > .containerCol
   opacity: 0;
 }
 
+section#page {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+section#page .title {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #edbf07;
+  border-bottom: 1px solid #edbf07;
+  padding: 15px 0px;
+  margin-bottom: 25px;
+}
+section#page .title i {
+  margin-right: 15px;
+}
+section#page .text p {
+  color: #FFFFFF;
+  float: left;
+  font-size: 14px;
+  line-height: 19px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+section#page .text p:last-child {
+  margin-bottom: 0px;
+}
+
 footer {
   font-size: 13px;
   text-align: center;
@@ -123,4 +156,29 @@ footer address {
 }
 footer .reservedRights {
   color: #9C8CA3;
+}
+footer .containerSocial {
+  float: right;
+  position: relative;
+}
+footer .containerSocial .socialItem {
+  float: left;
+  position: relative;
+  -webkit-transition: background-color .4s linear;
+  -moz-transition: background-color .4s linear;
+  -o-transition: background-color .4s linear;
+  -ms-transition: background-color .4s linear;
+  transition: background-color .4s linear;
+}
+footer .containerSocial .socialItem a {
+  float: left;
+  position: relative;
+}
+footer .containerSocial .socialItem a:hover {
+  background: #edbf07;
+}
+footer .containerAlcateia {
+  float: right;
+  position: relative;
+  margin-top: 10px;
 }

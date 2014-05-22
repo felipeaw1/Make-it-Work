@@ -28,6 +28,7 @@ $laranja: #F26922;
 body {
 	background: #342A3F;
 	font-family: Verdana;
+	color: #FFF;
 }
 .container {
 	padding: 0px;
@@ -62,6 +63,11 @@ header {
 		li:last-child {
 			margin-right: 0px;
 		}
+		.current-menu-item {
+			a {
+		    	color: #eebd08;
+		    }
+		}
 		a:hover {
 			text-decoration: none;
 			color: #eebd08;
@@ -70,8 +76,7 @@ header {
 }
 section#home {
 	margin-top: 150px;
-	color: #FFF;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	article {
 		.containerCol {
 			min-height: 170px;
@@ -130,6 +135,38 @@ section#home {
 	}
 }
 
+section#page {
+	margin-top: 150px;
+	margin-bottom: 80px;
+	.title {
+		width: 100%;
+	    font-size: 20px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    color: $amarelo;
+	    border-bottom: 1px solid $amarelo;
+	    padding: 15px 0px;
+	    margin-bottom: 25px;
+	    i {
+	    	margin-right: 15px;
+	    }
+	}
+	.text {
+		p {
+			color: #FFFFFF;
+			float: left;
+			font-size: 14px;
+			line-height: 19px;
+			position: relative;
+			width: 100%;
+			margin-bottom: 15px;
+		}
+		p:last-child {
+			margin-bottom: 0px;
+		}
+	}
+}
+
 footer {
 	font-size: 13px;
 	text-align: center;
@@ -140,5 +177,22 @@ footer {
 	}
 	.reservedRights {
 		color: #9C8CA3;
+	}
+	.containerSocial {
+		@include floatRightRelative;
+		.socialItem {
+			@include floatLeftRelative;
+			@include animationBG;
+			a {
+				@include floatLeftRelative;
+			}
+			a:hover {
+				background: $amarelo;
+			}
+		}
+	}
+	.containerAlcateia {
+		@include floatRightRelative;
+		margin-top: 10px;
 	}
 }
