@@ -1,0 +1,395 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"float",
+				"floatRelative"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"FFF",
+				"FFFFFF"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"primary",
+				"primaryColor"
+			],
+			[
+				"secondar",
+				"secondaryColor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"1",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/makeitwork/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/makeitwork/wp-content/themes/makeitwork1.1/assets/bower.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/assets/compass/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/makeitwork/wp-content/themes/makeitwork/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/assets/components/bootstrap-grid-sass/assets/scss/grid.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/assets/compass/sass/_grid.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/bower.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/sass/normalize.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/.sass-cache/48a8e3483b65e18a9d726a4a70dc62410c67e71e/_float.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/css/base.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/.sass-cache/71fcdfaed29354f1b2b22143f2ac30794bdfd46a/_horizontal-list.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/alcateia.sublime-project",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/.sass-cache/3b91a2db7433074b093e387d9dab65dfb3a9dff9/_general.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/.sass-cache/71fcdfaed29354f1b2b22143f2ac30794bdfd46a/_inline-list.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/.sass-cache/1490b45ffed82af46d7c5cd9e5e328c3d5b853be/_nowrap.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/.sass-cache/851eebe0429c069b1b04660fda9ae154b3d0f81c/_transform.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/compass/sass/reset.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/sass/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/sass/sass-alcateia/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/sass/sass-alcateia/config.rb",
+		"/Users/felipe/Desktop/zoemob/style.css",
+		"/Users/felipe/Desktop/zoemob/index.html",
+		"/Users/felipe/Desktop/zoemob/css/vendor/bootstrap.css",
+		"/Users/felipe/Desktop/zoemob/css/vendor/bootstrap.min.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/blackpridesocialclub/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/blackpridesocialclub/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/blackpridesocialclub/css/style.css",
+		"/Users/felipe/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/blackpridesocialclub/style.css",
+		"/Users/felipe/Desktop/Cranix/04_Desenvolvimento/cranix/wp-content/themes/cranix/index copy.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/page-campanha.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/page-a-marca.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/js/vendor/jquery.fit.vids.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/wp-content/themes/cranix/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/lenovo/08_lenovoemcasa/index.php",
+		"/Users/felipe/Desktop/mesa-teste/mesa-teste.html",
+		"/Users/felipe/Desktop/mesa-teste/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/js/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/sass/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/jquery-panelsnap-master/demos/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/style.bkp.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/onepage-scroll-master/Demo/onepage-scroll.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/wp-content/themes/alcateia_v1/onepage-scroll-master/Demo/demo.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/index.php",
+		"/Users/felipe/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/site/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/sass/.sass-cache/c27980626b25421a41fdc2273090f085ac8ab8be/screen.scssc",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/site/js/vendor/jquery.address-1.5.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/alcateia/index1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/site/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass/config.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/stylesheets/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass/css/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass-cranix/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass-cranix/config.rb",
+		"/Users/felipe/sass-cranix/sass/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass-cranix/sass/teste.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/sass-cranix/sass/screen.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/cranix/teste/teste.haml",
+		"/Users/felipe/Downloads/acf-cf7-field-master/README.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"featuredItem",
+			"clearfix",
+			".backIcon",
+			"glyphicon",
+			".container",
+			"memberIconRodrigo",
+			"container",
+			"listraTrampos",
+			"container",
+			"campanha",
+			"font-size: 20px;",
+			"margin-top",
+			"artil",
+			"campanhaGaleria",
+			"campanhaFotos",
+			"article",
+			"campanhaFotos",
+			"campanhaNav",
+			"campanhaFotos",
+			"menu",
+			"meu",
+			"img",
+			"script",
+			"onepageScroll",
+			"home",
+			"sobre-nos",
+			"script",
+			"231f20",
+			"import",
+			"50%",
+			"000",
+			"FFF",
+			"marca",
+			"color",
+			"css",
+			"ul",
+			"ul>li*4.lepolepo",
+			"5",
+			"html:5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "makeitwork.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"f",
+				"compass/.sass-cache/48a8e3483b65e18a9d726a4a70dc62410c67e71e/_float.scssc"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

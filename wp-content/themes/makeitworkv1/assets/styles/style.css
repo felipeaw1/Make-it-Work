@@ -3,6 +3,23 @@ body {
   font-family: Verdana;
 }
 
+.container {
+  padding: 0px;
+}
+
+a {
+  color: #FFF;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 ul, li {
   margin: 0px;
   padding: 0px;
@@ -27,13 +44,6 @@ header nav li {
 header nav li:last-child {
   margin-right: 0px;
 }
-header nav a {
-  color: #FFF;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -o-transition: all .5s ease-out;
-  transition: all .5s ease-out;
-}
 header nav a:hover {
   text-decoration: none;
   color: #eebd08;
@@ -47,10 +57,34 @@ section#home {
 section#home article .containerCol {
   min-height: 170px;
   margin-bottom: 30px;
-  background: red;
   padding: 15px;
   font-size: 16px;
   line-height: 22px;
+  position: relative;
+}
+section#home article .laranja, section#home article .vermelho, section#home article .amarelo, section#home article .blog {
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+section#home article .laranja {
+  background: #f26922;
+}
+section#home article .vermelho {
+  background: #a12310;
+}
+section#home article .amarelo {
+  background: #edbf07;
+}
+section#home article .blog {
+  background: url("../images/blog_bg.png") top right no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 section#home article .colTitle {
   font-size: 20px;
@@ -68,6 +102,14 @@ section#home article .colIcon {
   position: absolute;
   right: 40px;
   top: 60px;
+}
+section#home article a:hover, section#home article a:hover > .containerCol, section#home article a:active, section#home article a:visited, section#home article a:focus {
+  background: none;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+section#home article a:hover .blog, section#home article a:hover > .containerCol .blog, section#home article a:active .blog, section#home article a:visited .blog, section#home article a:focus .blog {
+  opacity: 0;
 }
 
 footer {

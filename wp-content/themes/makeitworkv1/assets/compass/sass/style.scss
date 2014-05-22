@@ -12,9 +12,33 @@
 	-o-transition: 		all .5s ease-out;
 	transition: 		all .5s ease-out;
 }
+@mixin animationBG {
+    -webkit-transition: background-color .4s linear;
+    -moz-transition: background-color .4s linear;
+    -o-transition: background-color .4s linear;
+    -ms-transition: background-color .4s linear;
+    transition: background-color .4s linear;
+}
+
+$amarelo: #EDBF07;
+$vermelho: #A12310;
+$laranja: #F26922;
+
+
 body {
 	background: #342A3F;
 	font-family: Verdana;
+}
+.container {
+	padding: 0px;
+}
+a {
+	color: #FFF;
+	@include animation;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
 }
 ul, li {
 	margin: 0px;
@@ -38,10 +62,6 @@ header {
 		li:last-child {
 			margin-right: 0px;
 		}
-		a {
-			color: #FFF;
-			@include animation;
-		}
 		a:hover {
 			text-decoration: none;
 			color: #eebd08;
@@ -56,10 +76,31 @@ section#home {
 		.containerCol {
 			min-height: 170px;
 			margin-bottom: 30px;
-			background: red;	
 			padding: 15px;
 			font-size: 16px;
 			line-height: 22px;
+			position: relative;
+		}
+		.laranja, .vermelho, .amarelo, .blog {
+			@include animation;
+		}
+		.laranja {
+			background: $laranja;
+		}
+		.vermelho {
+			background: $vermelho;
+		}
+		.amarelo {
+			background: $amarelo;
+		}
+		.blog {
+			background: url('../images/blog_bg.png') top right no-repeat;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
 		}
 		.colTitle {
 			font-size: 20px;
@@ -77,6 +118,14 @@ section#home {
 			position: absolute;
 			right: 40px;
 			top: 60px;
+		}
+		a:hover, a:hover > .containerCol, a:active, a:visited, a:focus {
+			background: none;
+			color: #FFFFFF;
+			text-decoration: none;
+			.blog {
+				opacity: 0;
+			}
 		}
 	}
 }
